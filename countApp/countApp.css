@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.intro {
+  font-size: 50px;
+  font: bold;
+  background-color: lightgray;
+  border: 2px solid;
+  margin: 50px auto;
+}
+
+.intro:hover {
+  font-size: 55px;
+}
+
+#count-el {
+  border: 2px solid;
+  margin: auto;
+  padding: 20px 25px;
+  font-weight: bolder;
+  font-size: 38px;
+}
+
+#footer {
+  margin-top: 350px;
+  border-bottom: 0.5px solid;
+}
+
+button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background: black;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+#increment-btn {
+  background: lightblue;
+}
+#save-btn {
+  background: darkgreen;
+}
+#decrement-btn {
+  background: lightgray;
+}
+
+#increment-btn:hover {
+  font-size: 20px;
+}
+
+#save-el {
+  font-weight: bold;
+}
